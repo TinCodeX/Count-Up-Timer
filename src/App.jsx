@@ -17,7 +17,7 @@ function App() {
   },[running]);
   return(
     <>
-     <h1>O1-StopWatch</h1>
+     <h1 className='px-10'>O1-StopWatch</h1>
      <div>
       <span>{("0" + Math.floor((time/60000) % 60)).slice(-2)}:</span>
       <span>{("0" + Math.floor((time/1000) % 60)).slice(-2)}:</span>
